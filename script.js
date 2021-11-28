@@ -1,7 +1,7 @@
 'use strict';
 
-const secretNumber = Math.trunc(Math.random() * 20) + 1;
-let score = 20;
+const secretNumber = Math.trunc(Math.random() * 35) + 1;
+let score = 10;
 
 document.querySelector('.number').textContent = '?';
 
@@ -43,3 +43,8 @@ document.querySelector('.check').addEventListener('click', () => {
     }
   }
 });
+
+
+document.querySelector('.again').addEventListener('click', () => {
+      document.querySelector('.')
+})
