@@ -46,5 +46,10 @@ document.querySelector('.check').addEventListener('click', () => {
 
 
 document.querySelector('.again').addEventListener('click', () => {
-      document.querySelector('.')
+      document.querySelector('.number').textContent = '?';
+      document.querySelector('.message').textContent = 'Start guessing... ';
+      document.querySelector('body').style.backgroundColor = '#222';
+      document.querySelector('.score').textContent = 10;
+      score = 10;
+      secretNumber = Math.trunc(Math.random() * 35) + 1;
 })
